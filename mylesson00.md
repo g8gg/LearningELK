@@ -4,11 +4,11 @@
 ## 问题描述和解决步骤
 
 1. 有一个应用程序结果的log，记录了每个接口的运行耗时，格式如下：
-> ...
+> ```
 2015-12-11 00:13:10  [ resin-port-18057-105:26190014 ] - [ INFO ]  [url] http://api.foobar.com/contacts/findUserContact.do 30\
 2015-12-11 00:13:10  [ resin-port-18057-50:26190035 ] - [ INFO ]  [url] http://api.foobar.com/sys/config.do 12\
 2015-12-11 00:13:10  [ resin-port-18057-48:26190040 ] - [ INFO ]  [url] http://api.foobar.com/user/updateDeviceStoken.do 21\
-...
+> ```
 
 2. 要求，根据url和日期，分析出接口消耗时间(duration，下文用oo)
 

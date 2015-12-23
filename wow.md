@@ -17,7 +17,7 @@ gosber@freedamadeMacBook-Pro  ~/logstash  curl -XDELETE 'localhost:9200/us
 {
   "query": { "match_all": {} },
 }'
-"acknowledged":true}%
+{"acknowledged":true}%
 gosber@freedamadeMacBook-Pro  ~/logstash  curl -XGET 'http://127.0.0.1:9200/_cat/indices?v'
 health status index        pri rep docs.count docs.deleted store.size pri.store.size
 yellow open   bank           5   1       1000            0    442.5kb        442.5kb

@@ -13,7 +13,8 @@
 ### 实战
 * [从创建索引并条件查询开始...](https://github.com/g8gg/LearningELK/blob/master/mylesson00.md)
 * [误删除...](https://github.com/g8gg/LearningELK/blob/master/wow.md)
-* [使用kv filter的技巧，并合理add_field](https://github.com/g8gg/LearningELK/blob/master/mylesson02.md) 
+* [使用kv filter的技巧，并合理add_field](https://github.com/g8gg/LearningELK/blob/master/mylesson02.md)
+* [搞定内嵌数组的JSON结构](https://github.com/g8gg/LearningELK/blob/master/mylesson03.md)
 
 ## Coding
 

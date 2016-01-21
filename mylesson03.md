@@ -139,7 +139,7 @@
 ### 第二步
 > 看看conf怎么写
 * my.conf
-```json
+```ruby
 input {
     file {
         type => "zbim"
@@ -168,5 +168,6 @@ output {
   stdout { codec => rubydebug }
 }
 ```
+
 ### 思考题
 > 看完这里，你还不会解决json的嵌套数组问题，那么...
